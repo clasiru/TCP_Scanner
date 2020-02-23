@@ -8,7 +8,7 @@ How to use this tool
 
 
 ```01.``` Usage:
-```bash
+```terminal
 usage: python3 tcps.py [-h] [--host HOST] [--default] [--list] [--pL PL [PL ...]] [--range] [--sP SP] [--eP EP]
 
 optional arguments:
