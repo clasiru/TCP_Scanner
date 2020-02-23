@@ -6,7 +6,8 @@ This is a straightforward program created by using Python version Three. You can
 How to use this tool
 -
 
-01. Usage:
+
+```01.``` Usage:
 ```
 usage: python3 tcps.py [-h] [--host HOST] [--default] [--list] [--pL PL [PL ...]] [--range] [--sP SP] [--eP EP]
 
@@ -20,3 +21,5 @@ optional arguments:
   --sP SP           Starting port number for port range scanning (between 1 and 65534)
   --eP EP           Ending port number for port range scanning (between 1 and 65534)
 ```
+
+02.
