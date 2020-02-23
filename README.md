@@ -3,11 +3,9 @@
 
 This is a straightforward program created by using Python version Three. You can perform TCP port scanning against any host within Intranet, Extranet & Internet by this tool. This tool can scan according to a given port range or a custom port(s) list or a default port range.
 
-How to use this tool
--
+## How to use this tool
 
-
-1. Usage:
+### 1. Usage:
 ```
 usage: python3 tcps.py [-h] [--host HOST] [--default] [--list] [--pL PL [PL ...]] [--range] [--sP SP] [--eP EP]
 
