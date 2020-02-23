@@ -8,7 +8,7 @@ How to use this tool
 
 
 1. Usage:
-```bash
+```
 usage: python3 tcps.py [-h] [--host HOST] [--default] [--list] [--pL PL [PL ...]] [--range] [--sP SP] [--eP EP]
 
 optional arguments:
@@ -23,16 +23,16 @@ optional arguments:
 ```
 
 2. Perform default ports scan:
-```bash
+```
 python3 tcps.py --host <target-host> --default
 ```
 
 3. Perform port(s) list scan:
-```bash
+```
 python3 tcps.py --host <target-host> --list --pL 21 22 80 443
 ```
 
 4. Perform port range scan:
-```bash
+```
 python3 tcps.py --host <target-host> --range --sP 79 --eP 81
 ```
