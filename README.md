@@ -21,8 +21,9 @@ optional arguments:
 ```
 
 ### 2. Perform default ports scan:
-> python3 tcps.py --host <target-host> --default
-
+```
+python3 tcps.py --host <target-host> --default
+```
 
 ### 3. Perform port(s) list scan:
 ```
