@@ -7,7 +7,7 @@ How to use this tool
 -
 
 
-```01.``` Usage:
+1. Usage:
 ```bash
 usage: python3 tcps.py [-h] [--host HOST] [--default] [--list] [--pL PL [PL ...]] [--range] [--sP SP] [--eP EP]
 
@@ -22,17 +22,17 @@ optional arguments:
   --eP EP           Ending port number for port range scanning (between 1 and 65534)
 ```
 
-```02.``` Perform default ports scan:
+2. Perform default ports scan:
 ```bash
 python3 tcps.py --host <target-host> --default
 ```
 
-```03.``` Perform port(s) list scan:
+3. Perform port(s) list scan:
 ```bash
 python3 tcps.py --host <target-host> --list --pL 21 22 80 443
 ```
 
-```04.``` Perform port range scan:
+4. Perform port range scan:
 ```bash
 python3 tcps.py --host <target-host> --range --sP 79 --eP 81
 ```
