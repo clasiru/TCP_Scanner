@@ -136,7 +136,7 @@ parser = argparse.ArgumentParser('python3 tcps.py', description='Simple Port Sca
 
 parser.add_argument('--host', default='127.0.0.1', help="Enter IP address or Hostname", type=str)
 parser.add_argument('--default', help="Use default port range (21, 22, 23, 80, 443)", action="store_true")
-parser.add_argument('--list', help="Enable port list scanning", action="store_true")
+parser.add_argument('--list', help="Enable port(s) list scanning", action="store_true")
 parser.add_argument('--pL', default=[21, 22, 23, 80, 443],  help='Ports for port list scanning (Eg: --pL 21 22 80)', nargs='+')
 parser.add_argument('--range', help="Enable port range scanning", action="store_true")
 parser.add_argument('--sP', default='1', help='Starting port number for port range scanning (between 1 and 65534)', type=int)
