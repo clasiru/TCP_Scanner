@@ -1,7 +1,7 @@
 # TCP Scanner (TCPS)
 ## Simple Port Scanner for scanning TCP ports in target hosts
 
-This is a straightforward program created by using Python version Three. You can perform TCP port scanning against any host within Intranet, Extranet & Internet by this tool. This tool can scan according to a given port range or a custom port(s) list or a default port range.
+This is a straightforward program created by using Python version Three. You can perform TCP port scanning against any host within Intranet, Extranet & Internet by this tool. This tool can scan according to a given port range or a custom port(s) list or an inbuilt default port range.
 
 ## How to use this tool
 
