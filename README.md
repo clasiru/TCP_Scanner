@@ -8,7 +8,7 @@ How to use this tool
 
 
 ```01.``` Usage:
-```
+```python
 usage: python3 tcps.py [-h] [--host HOST] [--default] [--list] [--pL PL [PL ...]] [--range] [--sP SP] [--eP EP]
 
 optional arguments:
@@ -23,16 +23,16 @@ optional arguments:
 ```
 
 ```02.``` Perform default ports scan:
-```
+```python
 python3 tcps.py --host <target-host> --default
 ```
 
 ```03.``` Perform port(s) list scan:
-```
+```python
 python3 tcps.py --host <target-host> --list --pL 21 22 80 443
 ```
 
 ```04.``` Perform port range scan:
-```
+```python
 python3 tcps.py --host <target-host> --range --sP 79 --eP 81
 ```
