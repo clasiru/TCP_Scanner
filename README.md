@@ -22,4 +22,17 @@ optional arguments:
   --eP EP           Ending port number for port range scanning (between 1 and 65534)
 ```
 
-02.
+```02.``` Perform default ports scan:
+```
+python3 tcps.py --host <target-host> --default
+```
+
+```03.``` Perform port(s) list scan:
+```
+python3 tcps.py --host <target-host> --list --pL 21 22 80 443
+```
+
+```04.``` Perform port range scan:
+```
+python3 tcps.py --host <target-host> --range --sP 79 --eP 81
+```
