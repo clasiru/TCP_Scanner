@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-#Simple Port Scanner v1.0
+#TCP Scanner
 #Author: Chandika Lasiru
 #Blog: https://clasiru.blogspot.com
 
