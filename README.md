@@ -34,3 +34,5 @@ python3 tcps.py --host <target-host> --list --pL 21 22 80 443
 ```
 python3 tcps.py --host <target-host> --range --sP 79 --eP 81
 ```
+
+My blog post about this: [TCP Scanner (TCPS)](https://clasiru.blogspot.com/2020/02/python-tcp-scanner-tcps.html)
